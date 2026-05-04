@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "he-IL",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "humanist-co-il-quartz.vercel.app",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {

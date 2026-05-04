@@ -153,7 +153,7 @@ Before deploying to Vercel, a `vercel.json` file is required at the root of the 
 > [!note]
 > If there is something already hosted on the domain, these steps will not work without replacing the previous content. As a workaround, you could use Next.js rewrites or use the next section to create a subdomain.
 
-1. Update the `baseUrl` in `quartz.config.js` if necessary.
+1. Update the `baseUrl` in `quartz.config.ts` if necessary.
 2. Go to the [Domains - Dashboard](https://vercel.com/dashboard/domains) page in Vercel.
 3. Connect the domain to Vercel
 4. Press "Add" to connect a custom domain to Vercel.
@@ -165,7 +165,7 @@ Before deploying to Vercel, a `vercel.json` file is required at the root of the 
 
 Using `docs.example.com` is an example of a subdomain. They're a simple way of connecting multiple deployments to one domain.
 
-1. Update the `baseUrl` in `quartz.config.js` if necessary.
+1. Update the `baseUrl` in `quartz.config.ts` if necessary.
 2. Ensure your domain has been added to the [Domains - Dashboard](https://vercel.com/dashboard/domains) page in Vercel.
 3. Go to the [Vercel Dashboard](https://vercel.com/dashboard) and select your Quartz project.
 4. Go to the Settings tab and then click Domains in the sidebar
