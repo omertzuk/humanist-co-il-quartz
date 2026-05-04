@@ -1,6 +1,7 @@
 ---
 title: "הומניסט"
 description: "ארכיון הומניסט — גן רעיונות"
+socialImage: "https://humanist-co-il-quartz.vercel.app/assets/branding/Humanist_banner.png"
 ---
 
 ![באנר הומניסט](/assets/branding/Humanist_banner.png)
