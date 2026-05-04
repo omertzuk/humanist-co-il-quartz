@@ -1,3 +1,86 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Alef font for Hebrew typography
+@font-face {
+  font-family: "Alef";
+  src: url("/static/fonts/Alef-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alef";
+  src: url("/static/fonts/Alef-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Light mode as default (white background with black text)
+:root {
+  --light: #ffffff;
+  --lightgray: #e8e8e8;
+  --gray: #888888;
+  --darkgray: #000000;
+  --dark: #000000;
+  --secondary: #000000;
+  --tertiary: #333333;
+  --highlight: rgba(0, 0, 0, 0.05);
+  --textHighlight: #fff23688;
+  color-scheme: light;
+}
+
+// RTL and Hebrew language support
+html,
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Keep sidebar and graph panel LTR so they remain readable */
+.sidebar,
+#graph-container {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Keep code blocks LTR */
+pre,
+code {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Ensure proper spacing and alignment for RTL content */
+article {
+  text-align: right;
+}
+
+/* Keep navigation elements readable */
+nav,
+.breadcrumb-container {
+  direction: rtl;
+}
+
+/* Ensure lists are properly aligned for RTL */
+ul,
+ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+/* Ensure headings are properly aligned */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: right;
+  color: var(--dark);
+}
+
+/* Ensure strong contrast for readability */
+body {
+  background-color: var(--light);
+  color: var(--darkgray);
+}
