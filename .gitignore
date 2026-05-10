@@ -10,3 +10,6 @@ private/
 .replit
 replit.nix
 archive/
+src/wordpress-conversions-scripts/__pycache__/extract_authors.cpython-314.pyc
+.gitignore
+src/wordpress-conversions-scripts/__pycache__/extract_posts.cpython-314.pyc
