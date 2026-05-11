@@ -2,10 +2,10 @@
 title: "הומניסט"
 publish: true
 description: "ארכיון הומניסט — גן רעיונות"
-socialImage: "https://humanist-co-il-quartz.vercel.app/assets/branding/Humanist_banner.png"
+socialImage: "https://humanist-co-il-quartz.vercel.app/assets/images/logos/Humanist_banner_20260512.jpg"
 ---
 
-![באנר הומניסט](/assets/branding/Humanist_banner.png)
+![באנר הומניסט](/assets/images/logos/Humanist_banner_20260512.jpg)
 
 ברוכים הבאים לארכיון **הומניסט** — מיזם קהילתי שפעל בין 2016 ל-2022
 ליצירת מגזין מקוון לקהילה ההומניסטית-חילונית בישראל.
